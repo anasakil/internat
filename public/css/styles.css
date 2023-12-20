@@ -1,0 +1,75 @@
+/* Reset default margin and padding for elements */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a white background color for the entire page */
+body {
+    background-color: #fff;
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #007BFF; /* Blue navbar background */
+    color: #fff; /* White text color */
+}
+
+.nav-link {
+    color: #fff; /* White text color for navigation links */
+}
+
+/* Style the header section */
+.header {
+    background-image: url('/img/header-background.jpg'); /* Replace with your header image */
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+/* Style section headers */
+.section-header {
+    background-color: #007BFF; /* Blue section header background */
+    color: #fff; /* White text color for section headers */
+    padding: 10px;
+}
+
+/* Style section content */
+.section-content {
+    padding: 20px;
+}
+
+/* Style buttons */
+.btn {
+    background-color: #007BFF; /* Blue button background */
+    color: #fff; /* White text color for buttons */
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style footer */
+.footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: #fff; /* White text color in the footer */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style links */
+a {
+    color: #007BFF; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
